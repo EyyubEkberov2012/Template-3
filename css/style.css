@@ -18,9 +18,17 @@ color: white;
 
 
 }
-#header h1 {
+#header h2 {
     display: inline-block;
     float: left;
-
+    margin: 0;
     margin-left: 10px;
+
+
+}
+#header a{
+    color: white;
+    text-decoration: none;
+ margin-top: 10px;
+ float: right;
 }
