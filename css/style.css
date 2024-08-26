@@ -62,9 +62,9 @@ button a {
 }
 #div2 {
     width: 60%;
-    min-height: 560px;
+    min-height: 600px;
     float: right;
-    background-color:firebrick;
+    position: relative;
 }
 #div1 button {
     background-color: orange;
@@ -72,4 +72,49 @@ button a {
     padding: 5px;
     box-sizing: border-box;
     
+}
+#img1{
+    width: 48%;
+    min-height: 280px;
+    background-image: url(../img/f2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;border: 5px solid white;
+    border-radius: 40px;
+    position: absolute;
+    top:-30px;
+
+}
+#img2{
+    width: 48%;
+    min-height: 280px;
+    background-image: url(../img/ggg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;border: 5px solid white;
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+
+}
+#img3{
+    width: 48%;
+    min-height: 280px;
+    background-image: url(../img/oopa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;border: 5px solid white;
+    border-radius: 40px;
+    position: absolute;bottom: 40px;
+
+}
+#img4{
+    width: 48%;
+    min-height: 280px;
+    background-image: url(../img/eyyub.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;border: 5px solid white;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
 }
