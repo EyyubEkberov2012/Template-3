@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+#main {
+    width: 100%;
+    min-height: 400px;
+}
+
+#header {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    width: 12%;
+    min-height: 150px;
+    background-image: url(../img/jj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    border: 2px solid greenyellow;
+}
+#main h1{
+    text-align: center;
+}
+#main p{
+    text-align: center;
+}
+#main2 {
+    width: 100%;
+    min-height: 150px;
+    background-color: blue;
+    
+}
+#div {
+    width: 90%;
+    min-height: 210px;
+    background: white;
+    position: relative;
+    left: 5%;
+    bottom: 90px;
+}
+.icon {
+    width: 33%;
+    min-height:inherit;
+    float: left;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon2{
+    width: 17%;
+    min-height: 60px;
+    background-color: blue;
+    color: white;
+    border-radius:100% ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
